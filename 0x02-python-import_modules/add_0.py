@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-from 0-add import add
+import 0-add
+
 
 a = 1
 b = 2
 
-result = add(a, b)
+result = 0-add.add(a, b)
 
 print("{} + {} = {}".format(a, b, result))
