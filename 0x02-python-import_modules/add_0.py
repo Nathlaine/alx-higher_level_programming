@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-import 0-add
+def add(a, b):
+    """My addition function
 
+    Args:
+        a: first integer
+        b: second integer
 
-a = 1
-b = 2
-
-result = 0-add.add(a, b)
-
-print("{} + {} = {}".format(a, b, result))
+    Returns:
+        The return value. a + b
+    """
+    return (a + b)
